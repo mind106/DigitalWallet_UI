@@ -114,7 +114,7 @@ const SignUp = ({ navigation }) => {
                             borderBottomWidth: 1,
                             height: 40,
                             color: COLORS.white,
-                            
+                            ...FONTS.body3
                         }}
                         placeholder="Enter Full Name"
                         placeholderTextColor={COLORS.white}
@@ -175,7 +175,7 @@ const SignUp = ({ navigation }) => {
                                 borderBottomWidth: 1,
                                 height: 40,
                                 color: COLORS.white,
-                               
+                                ...FONTS.body3
                             }}
                             placeholder="Enter Phone Number"
                             placeholderTextColor={COLORS.white}
@@ -194,7 +194,7 @@ const SignUp = ({ navigation }) => {
                             borderBottomWidth: 1,
                             height: 40,
                             color: COLORS.white,
-                            
+                            ...FONTS.body3
                         }}
                         placeholder="Enter Password"
                         placeholderTextColor={COLORS.white}
